@@ -62,3 +62,32 @@ img {
     height: auto;
 }
 
+ 
+.menu{
+    display: grid;
+    grid-row: 2 /span 2;
+}
+
+.menu-top{
+    display: grid;
+    grid-template-rows: repeat(6, .15fr);
+    grid-row: 2 / span 1;
+    padding-top: 40px;
+}
+
+.menu-middle {
+    display: grid;
+    grid-template-rows: repeat(3, .1fr);
+    grid-row: 3/ span 1;
+
+}
+
+.mini {
+    max-width: 7%;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
