@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     gap: 4px;
-    text-align: center;
+    text-align: justify;
 }
 
 .header {
@@ -17,6 +17,8 @@
     background-color: #1892d3;
     grid-row: 1 /span 2;
     grid-template-rows: 1fr 4fr 5fr;
+    color: white;
+    font-weight: bold;
 }
 
 .article-main {
@@ -60,6 +62,11 @@
 img {
     max-width: 20%;
     height: auto;
+    color: white;
+    fill: #ffffff;
+    border-color: white;
+    stroke: white;
+
 }
 
  
@@ -85,9 +92,58 @@ img {
 .mini {
     max-width: 7%;
     height: auto;
+    color: white;
 }
 
-.logo{
+.search {
+    height: 20px;
+    border-radius: 10px;
+    background-color: #e1e8f0;
+    border-color: #e1e8f0;
+}
+
+.q-1{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    gap:10px;
+
+}
+
+.q-2{
+    display:flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-mini {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.q-3{
+    display: grid;
+    grid-template-columns: 1fr 4fr;;
+}
+
+.header-large{
+    justify-self: center;
+    align-items: center;
+    max-width: 40px;
+    max-height: auto;;
+
+}
+
+.salutation {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.profile-tag{
+    font-size: 20px;
+    font-weight: bold;
 }
