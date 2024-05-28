@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="q-1">
-                <img src="./assets/magnify.svg" alt="magnifying glass logo" class="header-mini"/>
+                <img src="./assets/magnify.svg" alt="magnifying glass logo" class="header-medium q-1-left"/>
                 <input type="search" id="site-search" name="search" class="search" size="40"/>
             </div>
             <div class="q-2">
-                <img src="./assets/bell.svg" alt="bell logo" class="header-mini"/>
-                <img src="./assets/cat.png" alt="cat logo" class="header-mini"/>
-                <h4>Galileo Galilei</h4>
+                <img src="./assets/bell.svg" alt="bell logo" class="header-medium"/>
+                <img src="./assets/cat.png" alt="cat logo" class="header-large"/>
+                <h2 class="name">Galileo Galilei</h2>
             </div>
             <div class="q-3">
-                <img src="./assets/cat.png" alt="cat logo" class="header-large"/>
+                <img src="./assets/cat.png" alt="cat logo" class="header-xlarge"/>
                 <div class="salutation">Hi there,
                     <div class="profile-tag">Galileo Galilei (@galileo)</div>
                 </div>
@@ -32,7 +35,7 @@
         </div>
         <div class="sidebar">
             <!-- <div class="logo"> -->
-            <div class="dashboard">
+            <div class="dashboard-title">
                     <img src="./assets/dashboard.svg" alt="dashboard logo" /> Dashboard</div>
             <!-- </div> -->
             <!-- <div class="menu"> -->
@@ -97,22 +100,32 @@
                  </div>
             </div>
             <div class="article-right">
-                <h2>Announcements</h2>
-                <div class="announcement">
-                    <ul>
-                        <li>Site Maintenance</li>
-                        <li>Community Share Day</li>
-                        <li>Updated Privacy Policy</li>
-                    </ul>
+                <div class="article-right-top">
+                    <h2>Announcements</h2>
+                    <div class="announcement">
+                        <ul>
+                            <li class="a-one a"><b>Site Maintenance</b>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p></li>
+                            <li class="a-two a"><b>Community Share Day</b>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p></li>
+                            <li class="a-three a"><b>Updated Privacy Policy</b>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p></li>
+                        </ul>
+                    </div>
                 </div>
-                <h2>Trending</h2>
-                <div class="trending">
-                    <ul>
-                        <li>World Peace Builder</li>
-                        <li>Super Cool Project</li>
-                        <li>Life Changing App</li>
-                        <li>No Traffic Maker</li>
-                    </ul>
+                <div class="article-right-bottom">
+                    <h2 class="title-trending">Trending</h2>
+                        <ul class="trending">
+                            <img src="./assets/dog.png" alt="dog logo" class="icon-trend"/>
+                            <li class="b"><b>@tegan</b> World Peace Builder</li>
+                            <img src="./assets/cat.png" alt="cat logo" class="icon-trend"/>
+                            <li class="b"><b>@morgan</b>Super Cool Project</li>
+                            <img src="./assets/orange.png" alt="orange alien logo" class="icon-trend"/>
+                            <li class="b"><b>@kendall</b>Life Changing App</li>
+                            <img src="./assets/penguin.jpeg" alt="happy penguin logo" class="icon-trend"/>
+                            <li class="b"><b>@alex</b>No Traffic Maker</li>
+                        </ul>
+                    </div>
                 </div>
             </div> 
         </div>   
