@@ -37,11 +37,12 @@
 
 ## Takeaways
 
-* More fluidity creation via CSS/HTML
+* More fluid creation via CSS/HTML
 
 <br>
 
 ## Improvements
 
-* I left out the lower right icons on each card due to oversight. I debated fixing it but I believe my time is better served moving to the next module - JS data structures and algorithms.
+* I omitted the lower right icons on each card due to oversight. I debated fixing it but my time is better served moving to the next module - JS data structures and algorithms.
+
 
